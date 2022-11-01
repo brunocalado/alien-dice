@@ -61,5 +61,25 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     system:"ds_face_hugger-aliendice-ds", 
     modelFile: 'modules/' + moduleName + '/models/face_hugger.glb'    
   });
+
+  // ---------------------------------------------------------
+  // Alien d6 Stress
+  dice3d.addSystem({id:"d6_face_hugger2-aliendice-d6", name:"Stress d6 - Face Hugger 2"}, false);
+  
+  dice3d.addDicePreset({
+    type:"d6",
+    system:"d6_face_hugger2-aliendice-d6", 
+    modelFile: 'modules/' + moduleName + '/models/face_hugger2.glb'    
+  });
+  
+  // ---------------------------------------------------------
+  // Face Hugger ds Stress
+  dice3d.addSystem({id:"ds_face_hugger2-aliendice-ds", name:"Stress ds - Face Hugger 2"}, false);
+  
+  dice3d.addDicePreset({
+    type:"ds",
+    system:"ds_face_hugger2-aliendice-ds", 
+    modelFile: 'modules/' + moduleName + '/models/face_hugger2.glb'    
+  });
   
 });

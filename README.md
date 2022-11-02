@@ -1,12 +1,16 @@
 # Alien Dice
-This module add a new dice models for **Alien RPG**.
+This module add new dice models for **Alien RPG**.
 
 <p align="center">
   <img width="1000" src="docs/docs_demo1.webp">
 </p>
 
+<p align="center">
+  <img width="1000" src="docs/docs_demo2.webp">
+</p>
+
 ## Features
-- New dice Alien RPG.
+- New dice for Alien RPG.
 - Includes Animated Dice.
 
 # Instalation

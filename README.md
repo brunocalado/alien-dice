@@ -18,7 +18,7 @@ You can install this module with this link: https://raw.githubusercontent.com/br
 
 # How To
 - Activated the module. 
-- Go to Compendium and Alien Dice - Docs. There is a README journal in there with instructions.
+- Go to Compendium and open **Alien Dice - Docs**. There is a README journal with instructions.
 
 # Acknowledges
 - Erich Matos Viegas (Sal)

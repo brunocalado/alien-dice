@@ -1,13 +1,13 @@
 {
-	"id": "alien-dice",
-	"title": "Alien - Dice",
-	"description": "Extra dice for Alien RPG.",
+  "id": "alien-dice",
+  "title": "Alien - Dice",
+  "description": "Extra dice for Alien RPG.",
   
-	"version": "0.0.3",
+  "version": "0.0.4",
   
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "11",
+    "verified": "11"
   },
   
   "authors": [
@@ -17,13 +17,12 @@
       "flags": {}
     }
   ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
   
-	"esmodules": [
-		"./scripts/main.js"
-	],
-	"styles": [],
-	"url": "https://github.com/brunocalado/alien-dice",
-  "manifest": "https://raw.githubusercontent.com/brunocalado/alien-dice/main/module.json",  
+  "url": "https://github.com/brunocalado/alien-dice",
+  "manifest": "https://raw.githubusercontent.com/brunocalado/alien-dice/main/module.json",
   "download": "https://codeload.github.com/brunocalado/alien-dice/zip/main",
   
   "relationships": {
@@ -31,7 +30,8 @@
       {
         "id": "dice-so-nice",
         "type": "module",
-        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json",
+        "compatibility": {}
       }
     ]
   },
@@ -41,9 +41,8 @@
       "label": "Alien Dice - Docs",
       "type": "JournalEntry",
       "name": "alien-dice-docs",
-      "path": "packs/alien-dice-docs.db"
+      "path": "packs/alien-dice-docs"
     }
-  ]  
+  ]
   
 }
-

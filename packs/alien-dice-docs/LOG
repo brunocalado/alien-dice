@@ -1,5 +1,12 @@
-2024/01/30-13:56:11.329 4dc0 Delete type=3 #1
-2024/01/30-13:56:30.804 2134 Level-0 table #5: started
-2024/01/30-13:56:30.810 2134 Level-0 table #5: 1041 bytes OK
-2024/01/30-13:56:30.818 2134 Delete type=0 #3
-2024/01/30-13:56:30.819 2134 Manual compaction at level-0 from '!journal!yxlPqXWYMpswlNlN' @ 72057594037927935 : 1 .. '!journal.pages!yxlPqXWYMpswlNlN.496hmm8qgLYS7R52' @ 0 : 0; will stop at (end)
+2024/06/18-09:02:31.144 12ac Delete type=3 #1
+2024/06/18-09:03:02.771 1c74 Level-0 table #10: started
+2024/06/18-09:03:02.772 1c74 Level-0 table #10: 1135 bytes OK
+2024/06/18-09:03:02.773 1c74 Delete type=0 #8
+2024/06/18-09:03:02.775 1c74 Manual compaction at level-0 from '!journal!yxlPqXWYMpswlNlN' @ 72057594037927935 : 1 .. '!journal.pages!yxlPqXWYMpswlNlN.496hmm8qgLYS7R52' @ 0 : 0; will stop at '!journal.pages!yxlPqXWYMpswlNlN.496hmm8qgLYS7R52' @ 1 : 1
+2024/06/18-09:03:02.775 1c74 Compacting 2@0 + 0@1 files
+2024/06/18-09:03:02.776 1c74 Generated table #11@0: 2 keys, 1135 bytes
+2024/06/18-09:03:02.776 1c74 Compacted 2@0 + 0@1 files => 1135 bytes
+2024/06/18-09:03:02.777 1c74 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/06/18-09:03:02.777 1c74 Delete type=2 #5
+2024/06/18-09:03:02.777 1c74 Delete type=2 #10
+2024/06/18-09:03:02.778 1c74 Manual compaction at level-0 from '!journal.pages!yxlPqXWYMpswlNlN.496hmm8qgLYS7R52' @ 1 : 1 .. '!journal.pages!yxlPqXWYMpswlNlN.496hmm8qgLYS7R52' @ 0 : 0; will stop at (end)

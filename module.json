@@ -3,11 +3,11 @@
   "title": "Alien - Dice",
   "description": "Extra dice for Alien RPG.",
   
-  "version": "0.0.4",
+  "version": "0.0.5",
   
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
   },
   
   "authors": [
